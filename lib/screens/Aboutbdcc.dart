@@ -1,3 +1,4 @@
+import 'package:covid_bdcc2/config/palette.dart';
 import 'package:flutter/material.dart';
 
 class AboutBDCC extends StatelessWidget {
@@ -33,7 +34,7 @@ class AboutBDCC extends StatelessWidget {
                         "ENSET BDCC 2",
                         style: TextStyle(
                           fontSize: 22.0,
-                          color: Colors.white,
+                          color: Palette.primaryColor,
                         ),
                       ),
                       SizedBox(
@@ -43,7 +44,7 @@ class AboutBDCC extends StatelessWidget {
                         margin:
                             EdgeInsets.symmetric(horizontal: 20.0, vertical: 5.0),
                         clipBehavior: Clip.antiAlias,
-                        color: Colors.white,
+                        color: Palette.primaryColor,
                         elevation: 5.0,
                         child: Padding(
                           padding: const EdgeInsets.symmetric(
@@ -56,7 +57,7 @@ class AboutBDCC extends StatelessWidget {
                                     Text(
                                       "Group",
                                       style: TextStyle(
-                                        color: Colors.redAccent,
+                                        color: Colors.white,
                                         fontSize: 22.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -68,7 +69,7 @@ class AboutBDCC extends StatelessWidget {
                                       "4 Person",
                                       style: TextStyle(
                                         fontSize: 20.0,
-                                        color: Colors.pinkAccent,
+                                        color: Colors.white,
                                       ),
                                     )
                                   ],
@@ -80,7 +81,7 @@ class AboutBDCC extends StatelessWidget {
                                     Text(
                                       "Duration",
                                       style: TextStyle(
-                                        color: Colors.redAccent,
+                                        color: Colors.white,
                                         fontSize: 22.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -92,7 +93,7 @@ class AboutBDCC extends StatelessWidget {
                                       "25 days",
                                       style: TextStyle(
                                         fontSize: 20.0,
-                                        color: Colors.pinkAccent,
+                                        color: Colors.white,
                                       ),
                                     )
                                   ],
@@ -104,7 +105,7 @@ class AboutBDCC extends StatelessWidget {
                                     Text(
                                       "Hours",
                                       style: TextStyle(
-                                        color: Colors.redAccent,
+                                        color: Colors.white,
                                         fontSize: 22.0,
                                         fontWeight: FontWeight.bold,
                                       ),
@@ -116,7 +117,7 @@ class AboutBDCC extends StatelessWidget {
                                       "100Hrs",
                                       style: TextStyle(
                                         fontSize: 20.0,
-                                        color: Colors.pinkAccent,
+                                        color: Colors.white,
                                       ),
                                     )
                                   ],
@@ -139,9 +140,9 @@ class AboutBDCC extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                    "Desc:",
+                    "Description :",
                     style: TextStyle(
-                        color: Colors.blueAccent,
+                        color: Palette.primaryColor,
                         fontStyle: FontStyle.normal,
                         fontSize: 28.0),
                   ),
